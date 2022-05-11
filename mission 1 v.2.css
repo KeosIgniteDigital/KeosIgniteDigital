@@ -1,27 +1,16 @@
-
-
-
- 
-
-  .text{
-    padding: 15px;
-    text-align: center;
-    background-color: rgb(255, 192, 192);
-    border-radius: 25px 25px 0px 0px
-  
-}
+/* CRAZY EYEZ */
   
  body {
-   text-align:justify;
-   padding: 15px 15px;
+   text-align:center;
+   padding: 2vh;
 
     }
 
     /* fonts  */
 
   .italic{
-    font-size: 15px;
-    font-family: Tahoma;
+    font-size: 2em;
+    font-family: 'Koulen', cursive;
   align-content: center;
     font-stretch: semi-condensed;
     color: rgb(68, 12, 51, 0.438);
@@ -32,20 +21,20 @@
  
    #g {
 
-    font-size: 25px;
-    font-family: Tahoma;
+    font-size: 5em;
+    font-family: 'Koulen', cursive;
     font-style: bold;
     
     color: rgba(68, 12, 51, 0.438);
-    margin: 1em;
+    margin: 2em;
     font-weight: 800;
     
    }
 
    h2 {
 
-    font-size: 25px;
-    font-family: Tahoma;
+    font-size: 3em;
+    font-family: 'Koulen', cursive;
     font-style: bold;
        color: rgba(128, 22, 96, 0.438);
     font-style: italic;
@@ -55,7 +44,7 @@
 
    }
    
-
+/* section style */
    .three {
      width: 100%;
     height: 100%;
@@ -66,39 +55,65 @@ background-image: linear-gradient(180deg, rgba(255, 192, 192), rgba(255, 160, 16
 border-radius: 0px 0px 25px 25px;
 }
 
+.text{
+  padding: 1em;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;;
+  background-color: rgb(255, 192, 192);
+  border-radius: 25px 25px 0px 0px;  
+}
+
+
 #twotwo {
 font-size: medium;
-font-family: Tahoma;
-font-family: Tahoma;
+font-family: 'Mulish', sans-serif;
+font-family: 'Mulish', sans-serif;
 color: rgba(128, 22, 96, 0.438);
 
-
 }
 
+
+/* gap style */
 #gap {
-width: 40px;
-height: 40px;
-
+width: 2vh;
+height: 2vh;
 }
+
+
 /* form style */
 
 #p{
   background-color: rgba(128, 22, 96, 0.438); 
-  font-size: 20px;
-  font-family: Tahoma;
+  font-size: 2em;
+  font-family: 'Titillium Web', sans-serif;
   font-style: bold;
   font-stretch:extra-expanded;
   color:rgba(255, 192, 192) ;
-  padding: 10px;
+  padding: 3% 6%;
     text-align: center;
     border-radius: 20px 20px 20px 20px
   
 }
 
+#p1{
+ 
+  background-color: rgba(128, 22, 96, 0.438); 
+  font-size: 2em;
+  font-family: 'Mulish', sans-serif;
+  font-style: bold;
+  font-stretch:extra-expanded;
+  color:rgba(128, 22, 96, 0.438) ;
+  padding: 1.5% 32%;
+  text-align: center;
+  border-radius: 25px 25px 25px 25px
+   
+   
+}
+
 #p2{
   background-color: rgba(128, 22, 96, 0.438); 
-  font-size: 20px;
-  font-family: Tahoma;
+  font-size: 2em;
+  font-family: 'Mulish', sans-serif;
   font-style: bold;
   font-stretch:extra-expanded;
   color:rgba(128, 22, 96, 0.438) ;
@@ -109,20 +124,17 @@ height: 40px;
 }
 #p3{
  
-  font-size: 20px;
-  font-family: Tahoma;
+   font-size: 2em;
+  font-family: 'Titillium Web', sans-serif;
   font-stretch:extra-expanded;
   color:rgba(128, 22, 96, 0.438) ;
-  padding: 5px;
+  padding:  2% 20%;
   text-align: center;
+     border-radius: 25px 25px 25px 25px
 }
       
-#radio {
 
-
-
-}
-  /* Animation to */
+  /* Animation eyes */
      
 
      .main {
@@ -131,6 +143,7 @@ height: 40px;
           width: 100%;
           height: 100%;
           margin: 20%;
+          border-radius: 100%;
         }
 
         #one {
@@ -141,13 +154,17 @@ height: 40px;
           animation-duration: 2s;
           animation-direction: reverse;
           animation-iteration-count: infinite;
+          border-radius: 100%;
+          
         }
 
         @keyframes example {
           0%   {background-color:red; left:0px;}
           50%  {background-color:rgb(255, 30, 0); left:35%; }
           100% {background-color:red; left:0px; }
+         
         }
+      
 
         #two {
           width: 100px;
@@ -157,5 +174,15 @@ height: 40px;
           animation-duration: 2s;
           animation-direction: forward;
           animation-iteration-count: infinite;
+          border-radius: 100%;     
         }
-      
+        
+       .img
+                    {
+            border-radius: 8vh;
+           
+           
+          }
+        
+
+     
