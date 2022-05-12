@@ -1,0 +1,33 @@
+*{
+box-sizing: border-box;
+margin: 5%;
+background-color: rgb(205, 202, 209);
+
+}
+
+body{
+font-family:'Segoe UI';
+color: rgb(91, 27, 104);
+padding: 10px 10px;
+text-align: center;
+
+}
+
+p{
+font-size: 15px;
+font-family: Tahoma;
+font-style: italic;
+font-stretch: semi-condensed;
+color: rgb(124, 89, 207);
+margin: 10%;
+
+}
+div {
+
+ font-size: 25px;
+font-family: -apple-system;
+font-style:oblique
+font-stretch: semi-condensed;
+color:green;
+margin: 10%;
+}
